@@ -1,0 +1,704 @@
+@font-face {
+  font-family: "pokemon";
+  src: url("../fonts/PokemonSolid.ttf");
+}
+
+@font-face {
+  font-family: "pixel";
+  src: url("../fonts/Pixeled.ttf");
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  text-align: center;
+  /*background-color: #fff2f2;*/
+  background-color: #F2FCFF;
+  font-family: "Nunito";
+  margin: 0;
+}
+
+body {
+height: 100%;
+min-height: 100%;
+
+}
+
+h1 {
+ font-family: "Nunito";
+  color: #a5a5a5;
+}
+
+h2 {
+ font-family: "Nunito";
+  color: #a5a5a5;
+}
+
+h3 {
+  font-family: "Nunito";
+  color: #a5a5a5;
+  text-align: center;
+}
+
+h4 {
+  font-family: "Nunito";
+  font-size: 22px;
+  color: #a5a5a5;
+}
+
+h5 {
+  font-family: "Nunito";
+  font-size: 16px;
+  color: #a5a5a5;
+}
+
+span {
+    font-family: "Nunito";
+    /*color: #a5a5a5;*/
+}
+
+p {
+  font-family: "Nunito";
+  font-size: 16px;
+  color: #a5a5a5;
+}
+
+.footerP {
+  font-family: "Nunito";
+  font-size: 13px;
+  color: #a5a5a5;
+}
+
+.aboutText {
+  margin-top: 100px;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-bottom: 50px;
+  color: #a5a5a5;
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+.allButtons {
+  margin: auto;
+  margin-bottom: 120px;
+}
+
+.statusMsg {
+  margin: auto;
+}
+
+.answer {
+}
+
+.buttonsDiv {
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.btnRow2 {
+  margin: auto;
+  margin-top: 4px;
+}
+
+.checkbox {
+  width: 5%;
+}
+
+.choosepageAdd {
+  opacity: 0.1;
+}
+
+.choosepageImageSize {
+  width: 210px;
+  height:210px;
+}
+
+.choosepagefloat {
+  display: inline-block;
+  height: fit-content;
+}
+
+.choosepagetitle {
+  text-align: center
+}
+
+.choosepagetitlepic {
+  /*display:block;*/
+  margin: auto;
+  height: 85px;
+  width: 384px;
+  /*position: relative;*/
+  /*z-index: 2;*/
+  /*width: 30%;*/
+  /*height: 30%;*/
+}
+
+.choosepageteam {
+  height: 370px;
+}
+
+.choosepageteamH {
+  margin-bottom: 10px;
+}
+
+.choosepageteamP {
+  margin-top: 10px;
+}
+
+.choosepageteamT {
+  text-align: center;
+}
+
+
+.dragging {
+  opacity: 0.4;
+}
+
+.faqMain {
+  margin-top: 100px;
+  margin-left: 250px;
+  margin-right: 250px;
+  color: #a5a5a5;
+  margin-bottom: 100px;
+}
+
+.footer {
+    background-color: #FFFFFF;
+    color: #a5a5a5;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /*border-top: 1px solid #5C5C5C;*/
+    /*font-family: 'Baloo Bhaina', cursive;*/
+/*    margin-top: 100px;*/
+
+}
+
+.healthBarDiv {
+  text-align: left;
+}
+
+
+.homepageBG {
+  /*background: white url('../images/bg_v2.gif');*/
+  background-color: white;
+  /*background-image: url('../images/bg_v2.gif');*/
+  background-size: contain;
+  background-position: top;
+  height: 800px;
+  /*position: relative;*/
+  /*bottom: 30px;*/
+  z-index: -1;
+
+}
+
+.homepageInnerDiv {
+  background: white url('../images/bg_v2.gif');
+  background-size: contain;
+  background-position: top;
+  height: 850px;
+}
+
+.homepageTitle {
+  display:block;
+  margin: auto;
+  margin-top: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.homepageMessage {
+  margin-top: 480px;
+}
+
+.homepageGoButton {
+  margin-top: 500px;
+}
+
+.homepageButton {
+  position: relative;
+  top: 20px;
+  left: 35px;
+  margin-bottom: 100px;
+}
+
+.homepageBrackets {
+  position: relative;
+  bottom: 3px;
+  right: 114px;
+  z-index: 2;
+}
+
+.homepagebwidth {
+  width: 116px;
+}
+
+.homelogin {
+  position: relative;
+  top: 20px;
+  right: 138px;
+  margin-bottom: 100px;
+}
+
+
+.inline {
+  display: inline-block;
+}
+
+.loadingGif {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  background: rgba(255, 255, 255, .8)
+              url('../images/PikaLoading.gif')
+              50% 50%
+              no-repeat;
+}
+
+.faqAbout {
+  font-size: 16px;
+  font-family: "Nunito";
+  text-align: center;
+}
+
+.marginbottom100 {
+  margin-bottom: 100px;
+}
+
+.messagebutton {
+  text-align: center;
+}
+
+.noPadding {
+  padding: 0;
+  margin: 0;
+}
+/*.highscoreDiv {
+  text-align: left;
+}
+
+.nameInHighscoreDiv {
+  text-align: right;
+}*/
+
+.row {
+  text-align: center;
+}
+
+.pokemonImg {
+  width: 40%;
+}
+
+.popupinfo {
+  text-align: right;
+  font-family: "Nunito";
+  font-size: 20px;
+  color: #a5a5a5;
+  margin-top: 10px;
+}
+
+.popupTitle{
+  text-align: left;
+  font-family: "Nunito";
+  font-size: 22px;
+  color: #a5a5a5;
+  margin-top: 25px;
+}
+
+
+.question {
+  margin-top: 40px;
+}
+
+.randomButtonL {
+  text-align: right;
+  margin-bottom: 30px;
+}
+
+.randomButtonR {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.searchButton {
+  text-align: center;
+}
+
+.searchMatches {
+  margin-bottom: 100px;
+}
+
+.textAlignCenter {
+  text-align: center
+}
+
+.width150 {
+  width: 150px;
+}
+
+/*#about {
+  margin-right: 50px;
+  float:right;
+}*/
+
+#chosenPokemon: -moz-drag-over {
+  border: 1px solid black;
+}
+
+
+#confirmedList {
+  margin-bottom: 50px;
+}
+
+#faq {
+  margin-right: 30px;
+}
+
+#highscore {
+  margin-right: 30px;
+}
+
+/*#highscore {
+  margin-right: 200px;
+}
+
+#nameInHighscore {
+  margin-left: 200px;
+}*/
+
+#homepagecheck_a {
+  position: relative;
+  bottom: 3px;
+  right: 114px;
+  z-index: 2;
+}
+
+#opponentPokemon{
+  margin-top: 20px;
+
+  width: 230px;
+  height: 230px;
+}
+
+#startButton {
+  font-family: "Nunito";
+}
+
+#username {
+  font-family: "Nunito";
+}
+
+#userPokemon{
+  margin-top: 20px;
+  width: 230px;
+  height: 230px;
+}
+
+#healthBarUser {
+  background-color: green;
+  height: 10px;
+  width: 230px;
+  margin-top: 20px;
+  text-align: left;
+  transition: width 1s, background-color 0.5s;
+}
+
+
+#healthBarOpp {
+  background-color: green;
+  height: 10px;
+  width: 230px;
+  margin-top: 20px;
+  text-align: left;
+  transition: width 1s, background-color 0.5s;
+}
+
+@media all and (min-width: 1500px) {
+  #healthBarUser {
+    margin-left: 47px;
+  }
+
+  #healthBarOpp {
+    margin-left: 47px;
+  }
+}
+
+@media all and (min-width: 1300px) and (max-width: 1500px){
+  #healthBarUser {
+    margin-left: 17px;
+  }
+
+  #healthBarOpp {
+    margin-left: 17px;
+  }
+}
+
+
+#loadingGif {
+  width: 200px;
+}
+
+#pokeball {
+  margin-top: 40px;
+  width: 35%;
+  height: 35%;
+}
+
+#scores {
+  margin-top: 70px;
+}
+
+#subtitle {
+  font-family: 'Baloo Bhaina', cursive;
+  color: #a5a5a5;
+}
+
+#title {
+  font-family: pokemon;
+  color: #ffd530;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #2b4bff;
+  /*text-shadow: 4px 0 0 #2b4bff, -4px 0 0 #2b4bff, 0 4px 0 #2b4bff, 0 -4px 0 #2b4bff, 2px 2px #2b4bff, -2px -2px 0 #2b4bff, 2px -2px 0 #2b4bff, -2px 2px 0 #2b4bff;*/
+  /*text-shadow: -7px 0 #2b4bff, 0 7px #2b4bff, 7px 0 #2b4bff, 0 -7px #2b4bff;*/
+}
+
+.bgYellowColor{
+  background-color:rgba(255,203,5,0.1);
+}
+
+.bgSearchColor{
+  background-color:rgba(52,102,175,0.1);
+}
+
+.btn-primary.gradient {
+  background: -moz-linear-gradient(top,  #3466af 50%, #3a5da8 50%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#3466af), color-stop(50%,#3a5da8)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #3466af 50%,#3a5da8 50%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #3466af 50%,#3a5da8 50%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #3466af 50%,#3a5da8 50%); /* IE10+ */
+  background: linear-gradient(to bottom,  #3466af 50%,#3a5da8 50%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3466af', endColorstr='#3a5da8',GradientType=0 ); /* IE6-9 */
+  color: #ffcb05;
+  text-size: x-large;
+  width: 160px;
+}
+
+.btn-primary.gradient:hover, .btn-primary.gradient:focus, .btn-primary.gradient:active, .btn-primary.gradient.active, .open > .dropdown-toggle.btn-primary {
+  background: -moz-linear-gradient(top,  #0468ab 50%, #3466af 50%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#0468ab), color-stop(50%,#3466af)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #0468ab 50%,#3466af 50%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #0468ab 50%,#3466af 50%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #0468ab 50%,#3466af 50%); /* IE10+ */
+  background: linear-gradient(to bottom,  #0468ab 50%,#3466af 50%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0468ab', endColorstr='#3466af',GradientType=0 ); /* IE6-9 */
+  color: #ffda50;
+}
+
+.btn-primary.gradient:active, .btn-primary.gradient.active {
+  background: -moz-linear-gradient(top,  #0070b6 50%, #007299 50%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#0070b6), color-stop(50%,#007299)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #0070b6 50%,#007299 50%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #0070b6 50%,#007299 50%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #0070b6 50%,#007299 50%); /* IE10+ */
+  background: linear-gradient(to bottom,  #0070b6 50%,#007299 50%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0070b6', endColorstr='#007299',GradientType=0 ); /* IE6-9 */
+  color: #ffcb05;
+  text-size: x-large;
+}
+
+
+
+.tool {
+  width: 270px;
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  text-align: center;
+ }
+
+.teamImg {
+  width: 150px;
+  height: 150px;
+}
+
+.progress-bar-vertical {
+  width: 10px;
+  min-height: 150px;
+  display: flex;
+  align-items: flex-end;
+  margin:auto;
+}
+
+.progress-bar-vertical .progress-bar {
+  width: 100%;
+  height: 0;
+  -webkit-transition: height 0.6s ease;
+  -o-transition: height 0.6s ease;
+  transition: height 0.6s ease;
+}
+
+.label {
+  font-size: 20px;
+  margin-left:25px;
+  margin-top: 25px;
+}
+
+.progress-striped{
+  margin-top: 2px;
+}
+
+.teamSelection {
+  text-align: center;
+}
+
+.teamSelectionIcon{
+  margin-left:180px;
+}
+
+.mainViewSelect{
+  margin-top:-10px;
+  margin-left:210px;
+  position: relative;
+  bottom: 28px;
+  left: 5px;
+}
+
+.tipButton{
+  margin-top:20px;
+}
+/*.startSectionButton{
+  margin-top: 20px;
+}
+*/
+
+/*.homeButton{
+  background-color: #3466af;
+  color: #ffcb05;
+  width: 200px;
+}*/
+
+/*Hover Pulse */
+@-webkit-keyframes hvr-pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+@keyframes hvr-pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+.hvr-pulse {
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  opacity: 0.1;
+}
+.hvr-pulse:hover, .hvr-pulse:focus, .hvr-pulse:active {
+  animation-name: hvr-pulse;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  opacity: 1;
+}
+
+
+.form-style-6{
+
+}
+
+.form-style-6 input[type="text"],
+.form-style-6 textarea,
+.form-style-6 select
+{
+    transition: all 0.3s ease-in-out;
+    outline: none;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    width: 232px;
+    background: #fff;
+    border: 2px solid #03476B;
+    height: 47px;
+    color: #555;
+    font: 90% "Comic Sans MS", cursive, sans-serif;
+    text-align:center;
+}
+.form-style-6 input[type="text"]:focus,
+.form-style-6 textarea:focus,
+.form-style-6 select:focus
+{
+    box-shadow: 0 0 5px #03476B;
+    padding: 4%;
+    border: 2px solid #03476B;
+}
+
+.form-style-6 input[type="submit"],
+.form-style-6 input[type="button"]{
+    width: 105px;
+    background: #03476B;
+    color: #fff;
+    border: 0px;
+    font-family: "Asul", cursive, sans-serif;
+    font-size: 22px;
+    height: 47px;
+}
+.form-style-6 input[type="submit"]:hover,
+.form-style-6 input[type="button"]:hover{
+    background: #03476B;
+}
+
+.hvr-float {
+  transition-duration: 0.3s;
+}
+.hvr-float:hover, .hvr-float:focus, .hvr-float:active {
+  transform: translateY(-15px);
+
+}
+
+.bodyP{
+  text-align: right;
+  margin-top: 5px;
+}
+
+.bodyIcon{
+  text-align: right;
+}
+
+.battleImg{
+  text-align: center;
+}
+
+.battlet{
+  text-align: center;
+}
+
+.battleErrImageSize {
+  width: 260px;
+  height:260px;
+}

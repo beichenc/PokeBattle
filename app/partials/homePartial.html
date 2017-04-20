@@ -1,0 +1,41 @@
+
+<div class="homeView homepageBG">
+  <div class="col-md-12 homepageInnerDiv">
+
+	  <img src="images/title1.png" height="150px" width="690px" class="homepageTitle" />
+
+    <div ng-show="!isLogin()">
+      <div class="homepageMessage">
+        <input type="text" ng-model="username" placeholder="Username"/>
+        <input type="text" ng-model="password" placeholder="Password"/>
+        <p>{{message}}</p>
+      </div>
+    	<div class="col-md-3 col-md-offset-4 form-style-6 homepageButton" >
+        <input type="submit" id="startButton" value="Sign up" />
+        <a ng-click="checkName()" class="homepageBrackets">
+          <img src="images/brackets_s.png"  class="hvr-pulse homepagebwidth" />
+        </a>
+      </div>
+
+      <div class="col-md-3 form-style-6 homelogin" >
+        <input type="submit" id="startButton" value="Log in"/>
+        <a ng-click="checkPasswordAndGame()" id="homepagecheck_a" >
+          <img src="images/brackets_s.png"  class="hvr-pulse homepagebwidth" />
+        </a>
+      </div>
+
+    </div>
+
+    <div ng-show="showContinue()" class="homepageGoButton">
+      <button class="btn btn-primary gradient" ng-click="logOut()">Log out</button>
+      <a ng-click="checkLink()" type="button" class="btn btn-primary gradient">Continue</a>
+    </div>
+
+
+  <!--   <div style="margin-top: 500px; text-align: center;">
+      <input class="form-control" style="width: 300px; margin: auto" placeholder="Enter name to enable save"/>
+      <button class="btn btn-primary" style="margin-top: 20px">Start</button>
+    </div> -->
+
+  </div>
+</div>

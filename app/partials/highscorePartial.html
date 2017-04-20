@@ -1,0 +1,25 @@
+<!-- Title picture -->
+<div style="text-align: center">
+    <a href="#!/home">
+    <img src="images/title1.png" class="choosepagetitlepic"/>
+    </a>
+</div>
+
+<h1>Highscore</h1>
+
+<div id="scores">
+  <div class="col-md-3 marginbottom100">
+  </div>
+  <div class="col-md-3 nameInHighscoreDiv marginbottom100">
+    <div ng-repeat="highscore in highscoreArray">
+      <p id="nameInHighscore">{{highscore[0]}}</p>
+    </div>
+  </div>
+  <div class="col-md-3 highscoreDiv marginbottom100">
+    <div ng-repeat="highscore in highscoreArray">
+      <p id="highscore">{{highscore[1]}}</p>
+    </div>
+  </div>
+  <div class="col-md-3 marginbottom100">
+  </div>
+</div>
