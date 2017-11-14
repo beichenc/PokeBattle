@@ -13,7 +13,7 @@ pokeBattleApp.factory('PokeModel',function ($resource, $firebaseObject, $cookieS
     var pokemonAllName = [];
     var showContinue = false;
 
-    this.GetPokedex = $resource('http://pokeapi.co/api/v2/pokedex/:index', {}, {
+    this.GetPokedex = $resource('https://pokeapi.co/api/v2/pokedex/:index', {}, {
         get: {
 
         }
@@ -87,7 +87,7 @@ pokeBattleApp.factory('PokeModel',function ($resource, $firebaseObject, $cookieS
 
     //API calls
     //API: pokemon;
-    this.GetPokemon = $resource('http://pokeapi.co/api/v2/pokemon/:pokemonNameOrId', {}, {
+    this.GetPokemon = $resource('https://pokeapi.co/api/v2/pokemon/:pokemonNameOrId', {}, {
         get: {
 
         }
@@ -125,7 +125,7 @@ pokeBattleApp.factory('PokeModel',function ($resource, $firebaseObject, $cookieS
     }
 
 
-    this.GetPokeByType = $resource('http://pokeapi.co/api/v2/type/:typeId', {}, {
+    this.GetPokeByType = $resource('https://pokeapi.co/api/v2/type/:typeId', {}, {
         get: {
 
         }
@@ -191,7 +191,7 @@ pokeBattleApp.factory('PokeModel',function ($resource, $firebaseObject, $cookieS
         return type;
     }
     //API: move;
-    this.GetMove = $resource('http://pokeapi.co/api/v2/move/:moveId', {}, {
+    this.GetMove = $resource('https://pokeapi.co/api/v2/move/:moveId', {}, {
         get: {
 
         }

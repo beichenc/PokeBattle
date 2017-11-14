@@ -1,9 +1,9 @@
-# [PokéBattle](http://obscure-oasis-61451.herokuapp.com/)
+# [PokéBattle](https://rocky-ocean-62233.herokuapp.com/)
 Final Project @[DH2642 Interaction Programing and Dynamic Web](https://www.kth.se/social/course/DH2642/)
 
 =================================================
 
-##See [Heroku deployment](http://obscure-oasis-61451.herokuapp.com/)
+##See [Heroku deployment](https://rocky-ocean-62233.herokuapp.com/)
 
 ###Authors:
 
@@ -31,7 +31,7 @@ Final Project @[DH2642 Interaction Programing and Dynamic Web](https://www.kth.s
 ###Setup:
 
 1. Get and install node if you do not already have it yet;
-2. Get a fresh copy of the [project code](https://github.com/chnhaoli/PokeBattle);
+2. Get a fresh copy of the [project code](https://github.com/beichenc/PokeBattle);
 3. Navigate to the project repository in your command line;
 4. Run `npm install` which installs the web server and other need components;
 5. Run `npm start` which start a local http server on [port:8000](http://localhost:8000/);
